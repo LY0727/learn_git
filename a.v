@@ -32,7 +32,7 @@ always @(negedge clk) begin
     else begin
         a<=3'b000;
     end
-
+    #10；
 end
 
 endmodule
