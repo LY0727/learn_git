@@ -33,12 +33,6 @@ always @(negedge clk) begin
         a<=3'b000;
     end
 
-    if(a==3'b111)begin
-        a <= 010;
-    end
-    else begin
-        a <= 011;
-    end
 end
 
 endmodule
